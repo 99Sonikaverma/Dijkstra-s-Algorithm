@@ -40,7 +40,7 @@ for i in range(numofvertices - 1):
 for vertex in range(numofvertices):
 
     # Find next vertex to be visited
-    to_visit = tobevisited()
+    to_visit = vertex_to_be_visited()
     for neighborindex in range(numofvertices):
 
         # Updating new distances
